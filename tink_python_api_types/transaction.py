@@ -22,7 +22,7 @@ class Types:
 @dataclass
 class Dates:
     booked: str
-    value: str
+    value: str = None
 
 
 @dataclass
