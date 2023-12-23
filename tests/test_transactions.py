@@ -22,7 +22,6 @@ class TestTransactions:
                             "currency_code": "GBP",
                             "value": {"scale": "1", "unscaled_value": "-1300"},
                         },
-                        "booked_date_time": "2020-12-15T09:25:12Z",
                         "categories": {
                             "pfm": {
                                 "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
@@ -35,22 +34,13 @@ class TestTransactions:
                             "original": "TESCO STORES 3297",
                         },
                         "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
-                        "identifiers": {
-                            "provider_transaction_id": "500015d3-acf3-48cc-9918-9e53738d3692"
-                        },
-                        "merchant_information": {
-                            "merchant_category_code": "string",
-                            "merchant_name": "string",
-                        },
+                        "provider_transaction_id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
                         "provider_mutability": "MUTABILITY_UNDEFINED",
                         "reference": "string",
                         "status": "BOOKED",
-                        "transaction_date_time": "string",
                         "types": {
-                            "financial_institution_type_code": "DEB",
                             "type": "DEFAULT",
                         },
-                        "value_date_time": "2020-12-15T09:25:12Z",
                     }
                 ],
             }
@@ -71,6 +61,7 @@ class TestTransactions:
                 "transactions": [
                     {
                         "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
+                        "provider_transaction_id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
                         "account_id": "4a2945d1481c4f4b98ab1b135afd96c0",
                         "amount": {
                             "currency_code": "GBP",

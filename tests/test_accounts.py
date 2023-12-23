@@ -36,7 +36,6 @@ class TestAccounts:
                                 "bban": "0000011273547693",
                                 "iban": "SE6930000000011273547693",
                             },
-                            "pan": {"masked": "4000 12** **** 9010"},
                         },
                         "name": "PERSONKONTO",
                         "type": "CHECKING",
