@@ -6,7 +6,7 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="tink-python-api-types",
-    version="0.0.2",
+    version="0.0.3",
     description="Python types for the tink API entities",
     long_description=long_description,
     long_description_content_type="text/markdown",
