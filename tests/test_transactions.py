@@ -34,7 +34,9 @@ class TestTransactions:
                             "original": "TESCO STORES 3297",
                         },
                         "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
-                        "provider_transaction_id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
+                        "identifiers": {
+                            "provider_transaction_id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
+                        },
                         "provider_mutability": "MUTABILITY_UNDEFINED",
                         "reference": "string",
                         "status": "BOOKED",
@@ -61,7 +63,9 @@ class TestTransactions:
                 "transactions": [
                     {
                         "id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
-                        "provider_transaction_id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
+                        "identifiers": {
+                            "provider_transaction_id": "d8f37f7d19c240abb4ef5d5dbebae4ef",
+                        },
                         "account_id": "4a2945d1481c4f4b98ab1b135afd96c0",
                         "amount": {
                             "currency_code": "GBP",

@@ -32,12 +32,17 @@ class Descriptions:
 
 
 @dataclass
+class Identifiers:
+    provider_transaction_id: str
+
+
+@dataclass
 class Transaction:
     id: str
-    provider_transaction_id: str
     account_id: str
     amount: Amount
     descriptions: Descriptions
+    identifiers: Identifiers
     dates: Dates
     types: Types
     categories: Categories
