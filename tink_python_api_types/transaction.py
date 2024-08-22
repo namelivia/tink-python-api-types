@@ -42,12 +42,12 @@ class Transaction:
     account_id: str
     amount: Amount
     descriptions: Descriptions
-    identifiers: Identifiers
     dates: Dates
     types: Types
     categories: Categories
     status: str
     provider_mutability: str
+    identifiers: Identifiers = None
     reference: str = None
 
 
