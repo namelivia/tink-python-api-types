@@ -28,8 +28,8 @@ class FinancialInstitution:
 
 @dataclass
 class Identifiers:
-    iban: Iban
     financial_institution: FinancialInstitution
+    iban: Iban = None
 
 
 @dataclass

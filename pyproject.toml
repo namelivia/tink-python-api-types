@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tink-python-api-types"
-version = "0.0.6"
+version = "0.0.7"
 description = "Python types for the tink API"
 authors = ["José Ignacio Amelivia Santiago <hello@namelivia.com>"]
 readme = "README.md"
@@ -15,7 +15,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.10"
 pydantic = "*"
 
 [tool.poetry.group.dev.dependencies]
